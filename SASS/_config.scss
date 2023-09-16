@@ -1,0 +1,117 @@
+/* ////// COLORS ////// */
+/* PRIMARY COLORS */
+$pink: hsl(322, 100%, 66%);
+$light-pink: hsl(321, 100%, 78%);
+$light-red: hsl(0, 100%, 63%);
+/* NEUTRAL */
+$dark-cyan: hsl(192, 100%, 9%);
+$pale-blue: hsl(210, 100%, 98%);
+
+/* ////// FONTS ////// */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+$headings: 'Poppins', sans-serif;
+$body: 'Open Sans', sans-serif;
+
+/* HEADINGS */
+.heading {
+    font-family: $headings;
+    font-weight: 700;
+}
+
+/* ////// BREAKPOINTS ////// */
+$ipad: 768px;
+$ipadPro: 1024px;
+$laptop13: 1280px;
+$laptop: 1440px;
+$pc: 1920px;
+$bigPc: 2560px;
+$fourK: 3440px;
+
+/* MIXINS */
+@mixin ipad() {
+    @media screen and (min-width: $ipad) {
+        @content;
+    }
+}
+@mixin ipadPro() {
+    @media screen and (min-width: $ipadPro) {
+        @content;
+    }
+}
+@mixin laptop13() {
+    @media screen and (min-width: $laptop13) {
+        @content;
+    }
+}
+@mixin laptop() {
+    @media screen and (min-width: $laptop) {
+        @content;
+    }
+}
+@mixin pc() {
+    @media screen and (min-width: $pc) {
+        @content;
+    }
+}
+@mixin bigPc() {
+    @media screen and (min-width: $bigPc) {
+        @content;
+    }
+}
+@mixin fourK() {
+    @media screen and (min-width: $fourK) {
+        @content;
+    }
+}
+
+/* ////// RESET ////// */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+
+body {
+    font-family: $body;
+    color: $dark-cyan;
+}
+
+/* BUTTONS */
+.btn {
+    font-weight: 700;
+    background-color: $pink;
+    color: $pale-blue;
+    border-radius: 2rem;
+    padding: 10px 35px;
+    box-shadow: 1px 1px 10px $pale-blue;
+    margin-bottom: 4rem;
+    font-size: 0.8rem;
+    @include ipadPro {
+        font-size: 1rem;
+        padding: 20px 70px;
+    }
+}
+.btn:hover {
+    background-color: $light-pink;
+}

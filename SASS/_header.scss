@@ -1,0 +1,38 @@
+header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        @include ipadPro {
+            margin-bottom: 15rem;
+        }
+        
+        .logo a {
+            content: url(/images/logo.svg);
+            width: 110px;
+            @include ipadPro {
+                width: 250px;
+            }
+        }
+
+        .free {
+            color: $pink;
+            border: 1px solid $pink;
+            border-radius: 1rem;
+            padding: 5px 20px;
+            box-shadow: 1px 1px 10px $pale-blue;
+            font-size: 0.6rem;
+            @include ipadPro {
+                font-size: 1rem;
+            }
+        }
+
+        .free:hover {
+            color: $light-pink;
+            border: 1px solid $light-pink;
+        }
+    }
+}
+
