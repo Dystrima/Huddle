@@ -79,7 +79,7 @@ header .container {
   }
 }
 header .container .logo a {
-  content: url("images/logo.svg");
+  content: url("Huddle/images/logo.svg");
   width: 110px;
 }
 @media screen and (min-width: 1024px) {
@@ -132,7 +132,7 @@ main .hero h1 {
   }
 }
 main .hero .illu {
-  content: url("images/screen-mockups.svg");
+  content: url("/images/screen-mockups.svg");
   width: 100%;
 }
 main .amount {
@@ -157,13 +157,13 @@ main .amount .heading {
   position: relative;
 }
 main .amount .community::before {
-  content: url("images/icon-communities.svg");
+  content: url("/images/icon-communities.svg");
   position: absolute;
   top: -4rem;
   left: 0;
 }
 main .amount .message::before {
-  content: url("images/icon-messages.svg");
+  content: url("/images/icon-messages.svg");
   position: absolute;
   top: -4rem;
   left: 0;
@@ -175,16 +175,16 @@ main .top, main .top2, main .bot, main .bot2 {
   width: 100%;
 }
 main .top {
-  content: url("images/bg-section-top-desktop-1.svg");
+  content: url("/images/bg-section-top-desktop-1.svg");
 }
 main .top2 {
-  content: url("images/bg-section-top-desktop-2.svg");
+  content: url("/images/bg-section-top-desktop-2.svg");
 }
 main .bot {
-  content: url("images/bg-section-bottom-desktop-1.svg");
+  content: url("/images/bg-section-bottom-desktop-1.svg");
 }
 main .bot2 {
-  content: url("images/bg-section-bottom-desktop-2.svg");
+  content: url("/images/bg-section-bottom-desktop-2.svg");
 }
 main .blue {
   background-color: hsl(210, 100%, 98%);
@@ -222,7 +222,7 @@ main .desc .heading {
   }
 }
 main .grow .illu {
-  content: url("images/illustration-grow-together.svg");
+  content: url("/images/illustration-grow-together.svg");
 }
 @media screen and (min-width: 1024px) {
   main .grow .illu {
@@ -233,10 +233,10 @@ main .flowing {
   margin: 5rem auto;
 }
 main .flowing .illu {
-  content: url("images/illustration-flowing-conversation.svg");
+  content: url("/images/illustration-flowing-conversation.svg");
 }
 main .users .illu {
-  content: url("images/illustration-your-users.svg");
+  content: url("/images/illustration-your-users.svg");
 }
 @media screen and (min-width: 1024px) {
   main .users .illu {
@@ -261,7 +261,7 @@ main .cta .heading {
 }
 
 .footer-top {
-  content: url("images/bg-footer-top-desktop.svg");
+  content: url("/images/bg-footer-top-desktop.svg");
   width: 100%;
 }
 
@@ -302,12 +302,12 @@ footer .container .left .phone, footer .container .left .mail {
   gap: 20px;
 }
 footer .container .left .phone .icon {
-  content: url("images/icon-phone.svg");
+  content: url("/images/icon-phone.svg");
   height: 20px;
   width: auto;
 }
 footer .container .left .mail .icon {
-  content: url("images/icon-email.svg");
+  content: url("/images/icon-email.svg");
   height: 15px;
   width: auto;
 }
@@ -317,13 +317,13 @@ footer .container .left .social {
   gap: 15px;
 }
 footer .container .left .social .facebook a {
-  content: url("images/facebook.svg");
+  content: url("/images/facebook.svg");
 }
 footer .container .left .social .instagram a {
-  content: url("images/instagram.svg");
+  content: url("/images/instagram.svg");
 }
 footer .container .left .social .twitter a {
-  content: url("images/twitter.svg");
+  content: url("/images/twitter.svg");
 }
 footer .container .left .social a {
   padding: 5px;
