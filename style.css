@@ -79,7 +79,7 @@ header .container {
   }
 }
 header .container .logo a {
-  content: url(/images/logo.svg);
+  content: url(./images/logo.svg);
   width: 110px;
 }
 @media screen and (min-width: 1024px) {

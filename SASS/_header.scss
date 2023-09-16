@@ -10,7 +10,7 @@ header {
         }
         
         .logo a {
-            content: url(/images/logo.svg);
+            content: url(./images/logo.svg);
             width: 110px;
             @include ipadPro {
                 width: 250px;
