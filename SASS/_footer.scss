@@ -1,5 +1,5 @@
 .footer-top {
-    content: url("/images/bg-footer-top-desktop.svg");
+    content: url("images/bg-footer-top-desktop.svg");
     width: 100%;
 }
 
@@ -34,14 +34,14 @@ footer {
             }
             .phone {
                 .icon {
-                    content: url("/images/icon-phone.svg");
+                    content: url("images/icon-phone.svg");
                     height: 20px;
                     width: auto;
                 }
             }
             .mail {
                 .icon {
-                    content: url("/images/icon-email.svg");
+                    content: url("images/icon-email.svg");
                     height: 15px;
                     width: auto;
                 }
@@ -51,13 +51,13 @@ footer {
                 display: flex;
                 gap: 15px;
                 .facebook a {
-                    content: url("/images/facebook.svg");
+                    content: url("images/facebook.svg");
                 }
                 .instagram a {
-                    content: url("/images/instagram.svg");
+                    content: url("images/instagram.svg");
                 }
                 .twitter a {
-                    content: url("/images/twitter.svg");
+                    content: url("images/twitter.svg");
                 }
                 a {
                     padding: 5px;
